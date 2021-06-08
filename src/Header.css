@@ -1,0 +1,74 @@
+.header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: #292842;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header_logo {
+    width: 100px;
+    object-fit: contain;
+    margin-top: 18px;
+    margin-left:10px;
+    padding:5px;
+    margin-right: 10px;
+  }
+  .header_title{
+      width:400px;
+      font-size:13px;
+      font-weight: 800;
+      margin-top: 10px;
+      margin-right: 120px;
+      color: aliceblue;
+      font-family:  Tahoma,Verdana, Geneva, sans-serif;
+      object-fit: contain;
+  }
+  .header_about{
+    color: aliceblue;
+    margin-left: 150px;
+    display:flex;
+  }
+  .header_wordlist{
+    color: aliceblue;
+    display:flex;
+    margin-left: 50px;
+  }
+
+  .header_paper{
+    color: aliceblue;
+    display:flex;
+    margin-left: 50px;
+  }
+
+  .header_eligibility{
+    color: aliceblue;
+    display:flex;
+    margin-left: 50px;
+  }
+  .header_nav {
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 5px;
+    border-style: solid;
+    border: weight 10px;
+    padding: 15px;
+    color: white;
+  }
+
+  .header__optionLineOne {
+    font-size: 10px;
+  }
+  
+  .header__optionLineTwo {
+    font-size: 17px;
+    font-weight: 800;
+  }
