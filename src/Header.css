@@ -20,7 +20,7 @@
       font-size:13px;
       font-weight: 800;
       margin-top: 10px;
-      margin-right: 120px;
+      margin-right: 100px;
       color: aliceblue;
       font-family:  Tahoma,Verdana, Geneva, sans-serif;
       object-fit: contain;
@@ -30,10 +30,19 @@
     margin-left: 150px;
     display:flex;
   }
+
+  .header_about:hover{
+    background-color:#09082b;
+    padding:25px;
+  }
   .header_wordlist{
     color: aliceblue;
     display:flex;
     margin-left: 50px;
+  }
+  .header_wordlist:hover{
+    background-color:#09082b;
+    padding:25px;
   }
 
   .header_paper{
@@ -41,11 +50,19 @@
     display:flex;
     margin-left: 50px;
   }
+  .header_paper:hover{
+    background-color:#09082b;
+    padding:25px;
+  }
 
   .header_eligibility{
     color: aliceblue;
     display:flex;
     margin-left: 50px;
+  }
+  .header_eligibility:hover{
+    background-color:#09082b;
+    padding:25px;
   }
   .header_nav {
     display: flex;
