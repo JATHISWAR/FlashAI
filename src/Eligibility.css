@@ -1,0 +1,35 @@
+.eligibility {
+  background: url("https://www.wemakescholars.com/uploads/blog/Education-Loan-Eligibility-LF40.jpg");
+  height: 500px;
+  width: 1250px;
+  opacity: 0.8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.eligibility_container{
+  border-radius: 35px;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: rgba(0,0,0, 0.8);
+  width: 100%;
+  height: 300px;
+}
+
+.eligibility_title {
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 800;
+  color:#fff;
+  font-style: italic;
+  border-bottom: 5px solid #fff;
+  padding-bottom: 3px;
+  letter-spacing: 5px;
+}
+
+.eligibility_description {
+  font-size: 25px;
+  color:#fff;
+  text-align: left;
+}
