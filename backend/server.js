@@ -7,7 +7,7 @@ import Cors from 'cors';
 
 const app = express();
 const port = process.env.PORT||8001;
-const connection_url = `mongodb+srv://admin:Ja*28022000@cluster0.yqr50.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+const connection_url = `mongodb+srv://admin:Ja*28022000@cluster0.yqr50.mongodb.net/FlashCards?retryWrites=true&w=majority`;
 
 
 //Middlewares
