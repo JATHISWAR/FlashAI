@@ -43,11 +43,15 @@ function FlashCards() {
         }
 
         fetchData();
-
-        const update = action === 'left' ? direction='left':action==='right'?direction='right':" "; 
-
         
     }, []);
+
+    useEffect(()=>{
+        
+        action==='left'?TinderCard.swipe('left'):action==='right'?TinderCard.swipe('right'):<div>No action detected</div>
+
+
+    },[action])
 
     const swiped = (direction,wordToDelete) =>{
         console.log("removing: "+wordToDelete);
@@ -82,13 +86,8 @@ function FlashCards() {
                             <h3 className="word_description">{wordcard.description}</h3>
                             <button onClick={recognizeCommands} className="command" swipe={[direction]}>Command</button>
                             
-                            {action ? <div>{action}</div>:<div>No Action Detected</div> }
                         
                     </div>
-        
-                   
-                    
-
 
                     </TinderCard>
 
